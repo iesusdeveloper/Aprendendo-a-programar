@@ -1,0 +1,39 @@
+#texto{
+  color: red;
+  text-transform: capitalize;
+  text-indent: 35px;
+  text-decoration: underline;  
+  text-shadow: 2px 2px 5px rgb(2, 2, 2) ;
+}
+.fontes{
+    font-family: arial, "comic sans ms", sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+a{
+  text-decoration: none;
+  color: green;
+  cursor: crosshair;
+  /*background: red;*/
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: 2px solid rgb(212, 161, 18);
+}
+a:visited{
+  color: rgb(223, 159, 170)
+  
+}
+a:hover{
+  background: pink;
+  color:white;
+}
+ul{
+  list-style-type: square;
+}
+ol{
+  list-style-type: upper-latin;
+}

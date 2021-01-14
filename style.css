@@ -1,0 +1,84 @@
+body{
+    background-image: url(imagens/casamento.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+   /* background-attachment: local;*/
+}
+#titulo{
+   text-align: center;
+   color: black;
+   background-color: lightgray;
+   background-position: center;
+   
+}
+#principal{
+    color: rgb(83, 3, 3);
+}
+#paragrafos{
+    background-image: url(imagens/IMAGE01.jpg);
+    background-attachment: fixed;
+    background-size: 80%;
+}
+
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+#mm{
+    background-color: red;
+    width: 5mm;
+    height: 5mm;
+}
+#in{
+    background-color: green;
+    width: 1in;
+    height: 1in;
+}
+#px{
+    background-color: blueviolet;
+    width: 10mm;
+    height: 10mm;
+}
+#pt{
+    background-color: red;
+    width: 10mm;
+    height: 10mm;
+}
+#pc{
+    background-color: rgb(255, 230, 0);
+    width: 1mm;
+    height: 1mm;
+}
+#conteudo{
+    background-color: gray;
+    color: black;
+    margin: 0px;
+    width: 75px;
+}
+#outro{
+    background-color: chocolate;
+    color: rgb(145, 3, 3);
+    padding: 10px;
+    width: 125px;
+}
+.borda{
+    border-style: dotted;
+    border-width: 5px;
+    border-color: red;
+    border-radius: 5px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 10px solid blue;
+    box-sizing: border-box;
+}
+.circle1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin-left: 05px;
